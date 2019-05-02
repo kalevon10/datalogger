@@ -10,6 +10,7 @@
 	background-color: #000000;
 }
 </style>
+<title>IR Intensity Chart</title>
 </head>
 <body bgcolor="black">
 	
@@ -46,7 +47,7 @@ for (var i=out["ir"].length-30; i<out["ir"].length; i++) {
     irsum=irsum-currentir;
 }
 
-//IR
+
 var ctx = document.getElementById("irChart").getContext('2d');
 Chart.defaults.global.defaultFontSize = 16;
 Chart.defaults.global.defaultFontColor = "#FFFFFF";

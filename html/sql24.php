@@ -66,7 +66,6 @@ while ($currentrow = $data->fetchArray(SQLITE3_ASSOC)){
 	$out['humidity'][] = $array;
 }
 
-
 //Output JSON data
 echo json_encode($out);
 

@@ -10,6 +10,7 @@
 	background-color: #000000;
 }
 </style>
+<title>Temperature Chart</title>
 </head>
 <body bgcolor="black">
 	
@@ -54,7 +55,7 @@ for (var i=out["temp1"].length-30; i<out["temp1"].length; i++) {
     temp2sum=temp2sum-currenttemp2;
 }
 
-//TEMP1
+
 var ctx = document.getElementById("tempChart").getContext('2d');
 Chart.defaults.global.defaultFontSize = 16;
 Chart.defaults.global.defaultFontColor = "#FFFFFF";
